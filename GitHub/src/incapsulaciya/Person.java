@@ -1,25 +1,18 @@
 package incapsulaciya;
 
 public class Person {
-
-	    private String name;
-	    private int age;
-
-	    public String getName() {
-	        return name;
-	    }
-
-	    public void setName(String name) {
-	        this.name = name;
-	    }
-
-	    public int getAge() {
-	        return age;
-	    }
-
-	    public void setAge(int age) {
-	        this.age = age;
+	
+	    void makeSound() {
+	        System.out.println("Some sound...");
 	    }
 	}
+
+	class Dog extends Person {
+	    void bark() {
+	        System.out.println("Woof woof!");
+	    }
+	}
+
+	
 
 
